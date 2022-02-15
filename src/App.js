@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import "./assets/css/main.css";
+import { ItemTitle, Title } from "./components/elements/title";
+import { Price } from "./components/elements/price";
+import { Stock } from "./components/elements/stock";
+import data from "./components/data/dummy.json";
+import { Card } from "./components/card";
 
 function App() {
+  console.log(data);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Title text={"Termurah"} />
+      <div className='slide'>
+        {data.map((item) => {
+          console.log(item);
+          return <Card className='slide--product' data={item} />;
+        })}
+      </div>
     </div>
   );
 }

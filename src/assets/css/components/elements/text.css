@@ -1,0 +1,11 @@
+.text--title{
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+.text--item{
+    font-weight: 500;
+}
+.text--category{
+    font-size: 12px;
+    opacity: .4;
+}

@@ -1,0 +1,39 @@
+[
+    {
+        "id":1,
+        "title":"360 diamond",
+        "category":"PUBG",
+        "image":"card-img.jpg",
+        "desc": "Steam Wallet Code IDR 90.000 /n 100% Legal, Resmi dan Valid Stok ReadyCek cara redeem Steam Wallet Code : https://itemku.com/tanya-jawab/artikel/cara-trading-voucher-steam-wallet-code/232066807 Konfirmasi terima pesanan setelah redeem sukses Beri ulasan/ komentar Beri rating Terimakasih",
+        "price": 100000,
+        "discount": 50,
+        "stock":"available",
+        "stockcount":999,
+        "delivery": "10 Menit Kirim"
+    },
+    {
+        "id":2,
+        "title":"360 diamond",
+        "category":"Mobile Legends",
+        "image":"card-img.jpg",
+        "desc": "Steam Wallet Code IDR 90.000 /n 100% Legal, Resmi dan Valid Stok ReadyCek cara redeem Steam Wallet Code : https://itemku.com/tanya-jawab/artikel/cara-trading-voucher-steam-wallet-code/232066807 Konfirmasi terima pesanan setelah redeem sukses Beri ulasan/ komentar Beri rating Terimakasih",
+        "price": 100000,
+        "discount": 90,
+        "stock":"limited",
+        "stockcount":200,
+        "delivery":"10 Menit Kirim"
+    },
+    {
+        "id":3,
+        "title":"360 diamond",
+        "category":"PUBG",
+        "image":"card-img.jpg",
+        "desc": "Steam Wallet Code IDR 90.000 /n 100% Legal, Resmi dan Valid Stok ReadyCek cara redeem Steam Wallet Code : https://itemku.com/tanya-jawab/artikel/cara-trading-voucher-steam-wallet-code/232066807 Konfirmasi terima pesanan setelah redeem sukses Beri ulasan/ komentar Beri rating Terimakasih",
+        "price": 100000,
+        "discount": 0,
+        "stock":"available",
+        "stockcount":999,
+        "delivery": "10 Menit Kirim"
+    }
+
+]

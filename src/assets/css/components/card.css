@@ -1,0 +1,20 @@
+.card{
+    max-width: 200px;
+    min-height: 258px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 6px rgb(34 34 34 / 18%);
+}
+.card img{
+    width: 100%;
+}
+.card .card--top, .card--body{
+    position: relative;
+    display: flex;
+    padding: .5rem;
+    flex-direction: column;
+    height: auto;
+}
+.card .card--body{
+    gap: 10px 0;
+}

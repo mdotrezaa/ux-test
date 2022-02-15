@@ -1,0 +1,51 @@
+.price--tag .real--price, .price{
+    font-weight: 600;
+    width: 0;
+    color: #ef6000;
+}
+.price--tag .discount{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px 10px;
+}
+.price--tag .discount  *{
+    width: 100%;
+}
+.price--tag .discount .discount--tag{
+    background: red;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.price--tag .discount .real--price{
+    font-size: 11px;
+    opacity: .6;
+    font-weight: 400;
+    color: #000;
+    text-decoration: line-through;
+}
+
+/* stock area */
+.stock--tag span{
+    font-size: 11px;
+    padding: 3px;
+    border-radius: 5px;
+}
+.stock--tag .available{
+    border: 1px solid rgb(0, 182, 55);
+    color: rgb(0, 182, 55);
+}
+.stock--tag .limited{
+    border: 1px solid rgb(187, 153, 0);
+    color: rgb(187, 153, 0);
+}
+
+/* badges area */
+.badges--tag .delivery--tag{
+    font-size: 11px;
+    border-radius: 5px;
+    padding: 3px;
+    background: #d4edda;
+    color:#208060;
+}
