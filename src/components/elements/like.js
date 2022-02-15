@@ -10,9 +10,9 @@ export const Like = ({ data }) => {
   return (
     <span className='btn-heart' onClick={handleClick}>
       {like ? (
-        <i class='bx bx-heart'></i>
-      ) : (
         <i class='bx bxs-heart' style={{ color: "red" }}></i>
+      ) : (
+        <i class='bx bx-heart'></i>
       )}
     </span>
   );

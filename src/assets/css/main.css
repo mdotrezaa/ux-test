@@ -1,12 +1,13 @@
 @import url(./components/elements/text.css);
 @import url(./components/elements/tag.css);
 @import url(./components/elements/button.css);
+@import url(./components/modal.css);
 @import url(./components/card.css);
 @import url(./components/slide.css);
 @import url(./components/header.css);
 @import url(./components/section.css);
 @import url(./pages/product.css);
 
-.wrap{
+.wrap {
   padding: 1rem;
 }
