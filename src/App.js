@@ -1,23 +1,35 @@
-import logo from "./logo.svg";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import "./assets/css/main.css";
-import { ItemTitle, Title } from "./components/elements/title";
-import { Price } from "./components/elements/price";
-import { Stock } from "./components/elements/stock";
-import data from "./components/data/dummy.json";
-import { Card } from "./components/card";
+import { Header, HeaderProduct } from "./components/header";
+import Product from "./pages/product/product";
+import ProductDetail from "./pages/product/productDetail";
 
 function App() {
-  console.log(data);
   return (
     <div className='App'>
-      <Title text={"Termurah"} />
-      <div className='slide'>
-        {data.map((item) => {
-          console.log(item);
-          return <Card className='slide--product' data={item} />;
-        })}
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route
+            exact
+            path='/'
+            element={
+              <>
+                <Header />
+                <Product />
+              </>
+            }></Route>
+          <Route
+            path='/product/:id'
+            element={
+              <>
+                <HeaderProduct />
+                <ProductDetail />
+              </>
+            }
+          />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

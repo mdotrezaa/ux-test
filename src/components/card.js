@@ -8,16 +8,18 @@ import { DeliveryBadges } from "./elements/badges";
 export function Card({ data }) {
   return (
     <div className='card'>
-      <img src={require("../assets/images/" + data.image)} />
-      <div className='card--top'>
-        <ItemTitle data={data.title} />
-        <Category data={data.category} />
-      </div>
-      <div className='card--body'>
-        <Stock data={data} />
-        <Price data={data} />
-        <DeliveryBadges data={data} />
-      </div>
+      <a href={`/product/` + data.id}>
+        <img src={require("../assets/images/" + data.image)} />
+        <div className='card--top'>
+          <ItemTitle data={data.title} />
+          <Category data={data.category} />
+        </div>
+        <div className='card--body'>
+          <Stock data={data} />
+          <Price data={data} />
+          <DeliveryBadges data={data} />
+        </div>
+      </a>
     </div>
   );
 }

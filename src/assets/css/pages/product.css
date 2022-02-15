@@ -1,0 +1,19 @@
+.product-wrap{
+    position: relative;
+    background: #fff;
+}
+
+.detail-wrap{
+    position: relative;
+    background: #f4f4f4;
+}
+.detail-inside{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+.detail-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

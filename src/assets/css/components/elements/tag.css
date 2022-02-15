@@ -17,6 +17,7 @@
     color: #fff;
     padding: 5px;
     border-radius: 5px;
+    margin-right: 10px;
 }
 .price--tag .discount .real--price{
     font-size: 11px;

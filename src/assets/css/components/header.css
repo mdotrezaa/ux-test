@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    max-height: 80px;
+    background: #fff;
+}
+nav .logo img{
+    width: 100%;
+    height: 80px;
+}
+header{
+    position: relative;
+    height: 250px;
+}
+header .background--header {
+    position: absolute;
+    top:0;
+    height: 250px;
+    z-index: -1;
+}
+header .background--header img{
+    width: 100%;
+}

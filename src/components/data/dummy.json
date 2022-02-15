@@ -9,7 +9,7 @@
         "discount": 50,
         "stock":"available",
         "stockcount":999,
-        "delivery": "10 Menit Kirim"
+        "delivery": ""
     },
     {
         "id":2,
@@ -34,6 +34,42 @@
         "stock":"available",
         "stockcount":999,
         "delivery": "10 Menit Kirim"
+    },
+    {
+        "id":4,
+        "title":"360 diamond",
+        "category":"Mobile Legends",
+        "image":"card-img.jpg",
+        "desc": "Steam Wallet Code IDR 90.000 /n 100% Legal, Resmi dan Valid Stok ReadyCek cara redeem Steam Wallet Code : https://itemku.com/tanya-jawab/artikel/cara-trading-voucher-steam-wallet-code/232066807 Konfirmasi terima pesanan setelah redeem sukses Beri ulasan/ komentar Beri rating Terimakasih",
+        "price": 100000,
+        "discount": 90,
+        "stock":"limited",
+        "stockcount":200,
+        "delivery":"10 Menit Kirim"
+    },
+    {
+        "id":5,
+        "title":"360 diamond",
+        "category":"Mobile Legends",
+        "image":"card-img.jpg",
+        "desc": "Steam Wallet Code IDR 90.000 /n 100% Legal, Resmi dan Valid Stok ReadyCek cara redeem Steam Wallet Code : https://itemku.com/tanya-jawab/artikel/cara-trading-voucher-steam-wallet-code/232066807 Konfirmasi terima pesanan setelah redeem sukses Beri ulasan/ komentar Beri rating Terimakasih",
+        "price": 100000,
+        "discount": 50,
+        "stock":"limited",
+        "stockcount":200,
+        "delivery":"10 Menit Kirim"
+    },
+    {
+        "id":6,
+        "title":"360 diamond",
+        "category":"Mobile Legends",
+        "image":"card-img.jpg",
+        "desc": "Steam Wallet Code IDR 90.000 /n 100% Legal, Resmi dan Valid Stok ReadyCek cara redeem Steam Wallet Code : https://itemku.com/tanya-jawab/artikel/cara-trading-voucher-steam-wallet-code/232066807 Konfirmasi terima pesanan setelah redeem sukses Beri ulasan/ komentar Beri rating Terimakasih",
+        "price": 100000,
+        "discount": 20,
+        "stock":"limited",
+        "stockcount":200,
+        "delivery":"10 Menit Kirim"
     }
 
 ]
