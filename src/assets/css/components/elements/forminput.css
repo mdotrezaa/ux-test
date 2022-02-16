@@ -1,0 +1,28 @@
+label{
+    opacity: .5;
+}
+
+.quantity-group{
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    justify-content: flex-end;
+}
+.inputclass{
+    display: block;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.inputclass:focus-visible{
+    outline: 1px;
+    transition: all 0.3s ease-out;
+    border-bottom: 4px solid #ef6000;
+}
+.input-lg{
+    width: 100%;
+}
+.input-sm{
+    text-align: center;
+    width: 10%;
+}

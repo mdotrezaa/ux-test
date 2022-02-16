@@ -6,6 +6,7 @@
 .detail-wrap{
     position: relative;
     background: #f4f4f4;
+    margin-bottom: 30px;
 }
 .detail-inside{
     display: flex;

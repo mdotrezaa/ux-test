@@ -1,5 +1,5 @@
 import React from "react";
-import { ItemTitle } from "./elements/title";
+import { ItemTitle } from "./elements/text";
 import { Category } from "./elements/category";
 import { Stock } from "./elements/stock";
 import { Price } from "./elements/price";

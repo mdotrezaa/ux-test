@@ -1,11 +1,36 @@
-.text--title{
-    font-size: 1.75rem;
+h1,h2,h3,h4,h5,h6{
+    text-transform: capitalize;
+}
+h1{
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 1rem;
+}
+h3{
+    font-size: .75rem;
+}
+h4{
+    font-size: .5rem;
+}
+.text-black{
+    color: #2d2d2d;
+}
+.text-orange{
+    color: #ef6000;
+}
+.text-grey{
+    color: #adadad;
+}
+.text-bold{
     font-weight: 600;
 }
-.text--item{
-    font-weight: 500;
+.text-lg{
+    font-size: 24px;
 }
-.text--category{
-    font-size: 12px;
-    opacity: .4;
+.text-md{
+    font-size: 18px;
+}
+.text-sm{
+    font-size: 14px;
 }

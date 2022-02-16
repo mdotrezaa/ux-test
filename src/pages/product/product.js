@@ -1,17 +1,17 @@
 import React, { useRef } from "react";
 import useDraggableScroll from "use-draggable-scroll";
 import data from "../../components/data/dummy.json";
-import { Title } from "../../components/elements/title";
+import { Text } from "../../components/elements/text";
 import { Card } from "../../components/card";
 import { Slide } from "../../components/slide";
 
 function Product() {
   return (
     <div className='product-wrap wrap'>
-      <Title text={"Termurah di Seluruh Indonesia"} />
+      <Text headingLevel='h1'>Termurah di Seluruh Indonesia</Text>
       <Slide data={data} />
 
-      <Title text={"Produk Mobile Legends terpopuler"} />
+      <Text headingLevel='h1'>Produk Mobile Legends terpopuler</Text>
       <Slide data={data} sort='category' category='Mobile Legends' />
     </div>
   );

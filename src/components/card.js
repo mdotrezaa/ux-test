@@ -1,5 +1,5 @@
 import React from "react";
-import { ItemTitle } from "./elements/title";
+import { Text } from "./elements/text";
 import { Category } from "./elements/category";
 import { Stock } from "./elements/stock";
 import { Price } from "./elements/price";
@@ -11,7 +11,9 @@ export function Card({ data }) {
       <a href={`/product/` + data.id}>
         <img src={require("../assets/images/" + data.image)} />
         <div className='card--top'>
-          <ItemTitle data={data.title} />
+          <Text headingLevel='span' type={"bold"} size={"md"}>
+            {data.title}
+          </Text>
           <Category data={data.category} />
         </div>
         <div className='card--body'>

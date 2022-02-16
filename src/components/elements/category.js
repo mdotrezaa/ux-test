@@ -1,5 +1,10 @@
 import React from "react";
+import { Text } from "./text";
 
 export const Category = ({ data }) => {
-  return <span className='text--category'>{data}</span>;
+  return (
+    <Text color={"grey"} size={"sm"} headingLevel='span'>
+      {data}
+    </Text>
+  );
 };
