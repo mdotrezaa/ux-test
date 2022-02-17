@@ -37,7 +37,11 @@ function ProductDetail(props) {
           <Text headingLevel='span' size={"md"} type={"bold"}>
             Deskripsi Produk
           </Text>
-          <p>{detail.desc.substring(0, 100) + "..."}</p>
+          <p>
+            {detail.desc.length > 100
+              ? detail.desc.substring(0, 100) + "..."
+              : detail.desc}
+          </p>
           <Button
             onClick={() => {
               setDisplayModal(true);
