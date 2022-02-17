@@ -5,6 +5,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+### `DEMO`
+[Demo](https://ux-test-itemku.herokuapp.com/)
+
+### `npm i`
+Install several packages before running the app.
 
 ### `npm start`
 
